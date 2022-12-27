@@ -10,7 +10,6 @@ export default function Home() {
   const navigate = useNavigate();
 
   const onSearch = (vehicleId) => {
-    console.log(typeof vehicleId);
     if (vehicleId) {
       getTransaction(vehicleId)
         .then((res) => res.json())

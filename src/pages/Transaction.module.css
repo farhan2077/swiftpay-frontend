@@ -1,0 +1,17 @@
+.container {
+  margin: 0.5rem;
+}
+
+.cardBalance {
+  background-color: rgb(235, 246, 255);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.transactions {
+  margin-top: 0.5rem;
+}
+
+.spacing {
+  margin-top: 1rem;
+}
