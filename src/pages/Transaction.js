@@ -16,7 +16,7 @@ const { Text } = Typography;
 
 export default function Transaction() {
   const { vehicleId } = useParams();
-  const [transactionData, setTransactionData] = useState([]);
+  const [transactionData, setTransactionData] = useState("");
 
   useEffect(() => {
     function fetchTransaction() {
