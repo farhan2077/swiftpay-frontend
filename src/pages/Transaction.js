@@ -175,12 +175,39 @@ export default function Transaction() {
                   style={{
                     display: "flex",
                     justifyContent: "right",
-                    marginTop: "1rem",
                   }}
                   span={4}
                   offset={1}
                 >
-                  <Tag color="error">-{transactionData.tollRate}&nbsp;taka</Tag>
+                  {tx.paymentStatus === "paid" ? (
+                    <Row
+                      justify="end"
+                      style={{
+                        marginLeft: "-0.2rem",
+                      }}
+                    >
+                      <Col
+                        style={{
+                          marginRight: "-0.5rem",
+                        }}
+                      >
+                        <Tag color="green">{tx.paymentStatus}</Tag>
+                      </Col>
+                      <Col>
+                        <Tag>-{transactionData.tollRate}&nbsp;taka</Tag>
+                      </Col>
+                    </Row>
+                  ) : (
+                    <Row justify="end">
+                      <Col
+                        style={{
+                          marginRight: "-0.23rem",
+                        }}
+                      >
+                        <Tag color="error">{tx.paymentStatus}</Tag>
+                      </Col>
+                    </Row>
+                  )}
                 </Col>
               </Row>
             );
