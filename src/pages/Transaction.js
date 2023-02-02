@@ -167,6 +167,7 @@ export default function Transaction() {
                           }}
                         />
                         {/* &nbsp;{tx.createdAt.split(" ")[1]} */}
+                        &nbsp;
                         {(
                           parseInt(tx.createdAt.substring(11, 13)) + 6
                         ).toString() + tx.createdAt.substring(13)}
