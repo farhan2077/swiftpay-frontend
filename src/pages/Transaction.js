@@ -166,7 +166,11 @@ export default function Transaction() {
                             color: "black",
                           }}
                         />
-                        &nbsp;{tx.createdAt.split(" ")[1]}
+                        {/* &nbsp;{tx.createdAt.split(" ")[1]} */}
+                        {(
+                          parseInt(tx.createdAt.substring(11, 13)) + 6
+                        ).toString() + tx.createdAt.substring(13)}
+                        &nbsp;{}
                       </Text>
                     </div>
                   </div>
