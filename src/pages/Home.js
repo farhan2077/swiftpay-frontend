@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className={styles.parent}>
       <div className={styles.child}>
-        <div className={styles.title}>SwiftPay</div>
+        <div className={styles.title}>SwiftToll</div>
         <Search
           placeholder="Enter vehicle id"
           onSearch={onSearch}

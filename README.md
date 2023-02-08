@@ -1,6 +1,6 @@
 <h1 align="center">
 
-[SwiftPay](https://github.com/farhan2077/swiftpay) - Frontend
+[SwiftToll](https://github.com/farhan2077/swifttoll) - Frontend
 
 </h1>
 
@@ -17,13 +17,13 @@
 1. Download or clone the repository
 
 ```sh
-git clone https://github.com/farhan2077/swiftpay-frontend
+git clone https://github.com/farhan2077/swifttoll-frontend
 ```
 
 2. Move into the directory
 
 ```sh
-cd swiftpay-frontend
+cd swifttoll-frontend
 ```
 
 3. Install dependencies
@@ -32,7 +32,7 @@ cd swiftpay-frontend
 yarn
 ```
 
-4. Add environment variable **.env** file similar to [.env.example](https://github.com/farhan2077/swiftpay-frontend/blob/master/.env.example)
+4. Add environment variable **.env** file similar to [.env.example](https://github.com/farhan2077/swifttoll-frontend/blob/master/.env.example)
 
 5. Run app
 
